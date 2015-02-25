@@ -8,27 +8,6 @@
 }
 
 
-
-
-
-
-/*@font-face {
-    font-family: 'helvetica_neuethin';
-    src: url('HelveticaNeue-Thin-webfont.eot'); /* IE9 Compat Modes */
-    src: url('HelveticaNeue-Thin-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('HelveticaNeue-Thin-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('HelveticaNeue-Thin-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('HelveticaNeue-Thin-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('HelveticaNeue-Thin-webfont.svg#helvetica_neuethin') format('svg'); /* Legacy iOS */
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-
-
-
-
-
 body {
 	padding: 0;
 	margin: 0;
