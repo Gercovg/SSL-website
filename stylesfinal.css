@@ -7,6 +7,50 @@
     src: url(resources/fonts/HelveticaNeue-Italic.ttf); /*woff?*/
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -16,11 +60,7 @@ ul {
 	list-style-type: none;
 	width: 270px;
 }
-li {
-	margin-top: 20px;
-	margin-bottom: 40px;
-	background-color: #f4f4f4;
-}
+
 a {
 	text-decoration: none;
 }
@@ -31,10 +71,19 @@ a {
 	top: 0px;
 	height: 100%;
 	width: 270px; /* 350px */
-	background-color: white;
+	background-color: #fff;
 	overflow: hidden;
-
 	border-right: 1px solid #e1e1e1;
+}
+
+#navbar li {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #f4f4f4;
+}
+
+.submenu {
+	display: none;
 }
 
 #navbartitle {
@@ -68,7 +117,50 @@ a {
 	/*background-color: #fc3e2c;*/
 }
 
+#maincontent {
+	margin:0 auto;
+	width:739px;
+	height:800px;
+	background:#fff;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	margin-top:75px;
+}
 
+.chapter {
+	display: none;
+	width:auto;
+	padding:25px;	
+}
+#chapter1 {
+	display:block;
+}
+
+#container {
+	position: relative;
+	margin-left: 270px;
+	
+}
+
+.chapternavitem {
+	float:left;
+	width:369px;
+	padding:15px;
+	height:50px;
+	background: #ddd;
+	border-bottom:1px solid #555;
+	border-right:1px solid #555;
+}
+.chapterright {
+	width:370px;
+	border-right:0;
+}
+
+#feedback { font-size: 1.4em; }
+#navbarlist .ui-selecting { background: #fc3e2c; }
+#navbarlist .ui-selected { background: #F39814; color: white; }
+#navbarlist { list-style-type: none; margin: 0; padding: 0; }
+#navbarlist li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px;}
 
 
 

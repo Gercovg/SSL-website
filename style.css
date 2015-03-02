@@ -64,3 +64,11 @@ h2 {
 	width: 100%;
 	height: 100%;
 }
+
+.chapter {
+	display: none;
+}
+
+#chapter1 {
+	display: block;	
+}
